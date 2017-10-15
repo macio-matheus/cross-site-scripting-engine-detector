@@ -1,0 +1,20 @@
+package <#layerName>;
+
+import utilsLib.util.*;
+import java.util.*;
+
+public class <#bigEntityName>SearchParams extends SearchParams  {
+    public static <#bigEntityName>Factory <#entityName>Factory = new <#bigEntityName>Factory();
+    public static int classID = <#entityName>Factory.<#mnemonic>;
+
+    public <#bigEntityName>SearchParams() {
+	super(<#entityName>Factory, classID);
+        super.setFieldPrefix("<#tableNickName>");
+   }
+
+	public Object clone() {
+		<#bigEntityName>SearchParams params = new <#bigEntityName>SearchParams();
+		params.copyFrom(this);
+		return params;
+	}
+}

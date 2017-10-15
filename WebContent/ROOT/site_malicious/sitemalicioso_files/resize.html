@@ -1,0 +1,26 @@
+
+<!-- saved from url=(0052)http://www.santander.com.br/resize.html?tamanho=2027 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Banco Santander Brasil | Vamos fazer juntos? </title>
+<script>
+	function querySt(ji){
+		hu = window.location.search.substring(1);
+		gy = hu.split("&");
+		for (i=0;i<gy.length;i++) {
+			ft = gy[i].split("=");
+			if (ft[0] == ji) {
+				return ft[1];
+			}
+		}
+	}
+
+	function carrega(){
+		if (querySt("tamanho") > 0){
+			window.parent.parent.fresize(querySt("tamanho"));
+		}
+	}
+</script>
+</head>
+<body topmargin="0" leftmargin="0" onload="carrega()">
+
+</body></html>

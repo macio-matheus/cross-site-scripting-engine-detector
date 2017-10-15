@@ -1,0 +1,4 @@
+[#proc] 
+[#tipo_campo] [#nome_campo] = [#nome_campo_parametro] [/#proc]
+[#proc1]
+[#classe] [#variable] = new [#classe] ([/#proc1][#proc2][#nome_campo], [/#proc2]);

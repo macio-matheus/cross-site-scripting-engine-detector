@@ -1,0 +1,74 @@
+[2015-06-15 21:14:56] Começou a analise da URL: http://testphp.vulnweb.com/
+[2015-06-15 21:14:57] Analise terminou! Urls e Forms vazios.
+[2015-06-15 21:15:02] Analise terminou! Urls e Forms vazios.
+[2015-06-15 21:15:08] Analise terminou! Urls e Forms vazios.
+[2015-06-15 21:15:13] Analise terminou! Urls e Forms vazios.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:15:13] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 21:18:12] Começou a analise da URL: http://www.testphp.vulnweb.com/
+[2015-06-15 21:19:34] Começou a analise da URL: http://www.testphp.vulnweb.com/
+[2015-06-15 21:23:47] Começou a analise da URL: http://www.testphp.vulnweb.com/
+[2015-06-15 21:24:48] Tarefas em execução: 1
+[2015-06-15 21:24:48] Tarefas completas: 1
+[2015-06-15 21:25:49] Tarefas em execução: 1
+[2015-06-15 21:25:49] Tarefas completas: 1
+[2015-06-15 22:09:51] Começou a analise da URL: https://www.google.co.in/
+[2015-06-15 22:09:56] Analise terminou! Urls e Forms vazios.
+[2015-06-15 22:09:56] Analise terminou! Urls e Forms vazios.
+[2015-06-15 22:09:56] Analise terminou! Urls e Forms vazios.
+[2015-06-15 22:09:56] Analise terminou! Urls e Forms vazios.
+[2015-06-15 22:09:56] Analise terminou! Urls e Forms vazios.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:56] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:57] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:09:57] Analise terminou! Profundidade máxima atingida.
+[2015-06-15 22:10:51] Tarefas em execução: 1
+[2015-06-15 22:10:51] Tarefas completas: 1
+[2015-06-15 22:11:52] Tarefas em execução: 1
+[2015-06-15 22:11:52] Tarefas completas: 1
+[2015-06-15 22:12:53] Tarefas em execução: 1
+[2015-06-15 22:12:53] Tarefas completas: 1
+[2015-06-15 22:13:54] Tarefas em execução: 1
+[2015-06-15 22:13:54] Tarefas completas: 1
+[2015-06-15 22:14:55] Tarefas em execução: 1
+[2015-06-15 22:14:55] Tarefas completas: 1
+[2015-06-15 22:15:56] Tarefas em execução: 1
+[2015-06-15 22:15:56] Tarefas completas: 1

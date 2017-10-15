@@ -1,0 +1,326 @@
+*{padding:0px; margin:0px; font-family:Arial, Helvetica, sans-serif}
+
+
+	#boxBusca {display:none !important;}
+	
+        img{border:0px};
+
+        html, body{overflow-x:hidden;}
+
+        #pagina {background-image:url('/document/wps/teste_fundo.jpg');background-repeat:repeat-y;background-position:center top;}
+
+        .menuAcesso {width: 100px !important;}
+
+        #menuSecoes li a {font-family: verdana !important;font-size: 9px !important;}
+
+        #segundoNivel li a {font-size: 10px !important;}
+
+        /*#conteudo {width:932px; margin:0px auto; padding-top:20px; }*/
+
+        div#conteudo {text-decoration:none;border:none;font-family: Arial,Helvetica,sans-serif;color:#000;position:relative; padding-top:50px; padding-left:20px !important; }
+
+        h2{color:#FF0000; font-size:15px; font-weight:bold; padding:12px 0px 0px 12px;}
+	
+	.boxp h2, #atendimento2012 h2{color:#FF0000; font-size:16px; font-weight:bold; padding:15px 15px 0px 15px;}
+	.boxp h3{color:#000; font-size:14px; font-weight:bold; padding:0px 15px 0px 15px;}
+	
+        h2.grey{color:#787878; font-size:15px; font-weight:bold; padding:12px 0px 0px 12px;}
+
+        div.fleft{float:left;}
+
+    
+
+        #box_left {width:613px;}
+        #box_left_novo {width:619px;}
+
+        #box_left #produtos {width:613px; height:190px; background:url(/document/wps/bg_produtos.gif) no-repeat; margin-bottom:22px;}
+        
+        
+		#box_left_novo #produtos {width:616px; height:232px; background:url(/document/wps/hp2012_bg_destaques.gif) no-repeat; margin-bottom:22px; _padding-left:20px;}
+	
+        #box_left #promocoes {width:298px; height:189px; background:url(/document/wps/bg_promocoes.gif) no-repeat; margin-bottom:20px;}
+
+        #box_left #promocoes p {font-size:12px; width:120px; margin:30px 0px 0px 30px;}
+
+        #box_left #promocoes p.button {font-size:12px; text-align:right; width:252px; margin:30px 0px 0px 30px;}
+
+        #box_left #promocoes p a { text-decoration:none; color:#000;}
+
+        
+
+        #box_left #cartoes {width:299px; height:190px; margin-left:16px; margin-bottom:20px;}
+
+        
+
+        #box_left #imprensa {width:298px; height:189px; background:url(/document/wps/bg_imprensa.gif) no-repeat;}
+
+        #box_left #imprensa ul li { line-height:12px; list-style:none;margin:5px 0px 0px 20px; padding:5px 5px 4px 5px; width:237px;}
+
+        #box_left #imprensa ul li.last { line-height:12px; list-style:none;margin:5px 0px 0px 20px; padding:5px; width:237px; background:url(/document/wps/img_divide.gif) no-repeat}
+
+        #box_left #imprensa ul li a { text-decoration:none; color:black; font-size:11px; line-height:14px;}
+
+        #box_left #imprensa p.button {font-size:12px; text-align:right; width:252px; margin:12px 0px 0px 30px;}
+
+        
+
+        #box_left #institucional {width:289px; height:190px; background:url(/document/wps/bg_institucional.gif) no-repeat; margin-left:16px; padding-right:10px;}
+
+        #box_left #institucional div.destaque {vertical-align:top; width:277px; padding-left:12px; padding-top:10px; height:55px;}
+
+    
+
+        #box_left #institucional div.destaque p img{margin-right:10px; margin-top:5px;}
+
+        #box_left #institucional div.destaque p a{vertical-align:top; text-decoration:none; color:#666; font-size:11px; line-height:14px; }
+     
+        div.boxp {width:296px; height:232px; background:url(/document/wps/hp2012_bg_destaques_p.gif) no-repeat; padding-right:24px;}
+	
+	div.boxp p {margin:15px; }
+	
+	div.boxp p.descDest {min-height: 45px; * height:20px;}
+	
+	div.boxp p img{margin-right:19px;}
+	
+        div.boxp p a{vertical-align:top; text-decoration:none; color:#000; font-size:12px; line-height:14px;}
+        
+        div.boxp p.button {padding-left:117px; *margin: 95px 0 0 20px;}
+
+        div.boxp div.destaque{height:62px; background:url(/document/wps/hp2012_ico_seta.gif) no-repeat 80px 4px}
+        
+        div.boxp div.destaque p { padding-bottom:0px !important; padding-top:0px !important; margin-top:0px !important; margin-bottom:0px !important; }
+       
+        div.boxp div.destaque p a{vertical-align:top; text-decoration:none; color:#000; font-size:12px; line-height:14px; }
+        
+        div.boxp div.destaque p a{vertical-align:top; text-decoration:none; color:#000; font-size:12px; line-height:14px; }
+        
+        #socialweb.boxp p {margin: 0px !important;}
+
+        #box_left #column_left {width:320px;margin: 19px 15px 0px 17px; _margin: 19px 15px 0px 10px;}
+
+        #box_left #column_left p a{text-decoration:none; color:black; font-size:12px;}
+
+        #box_left #column_left p a img{margin-right:14px;}
+        
+        #box_left_novo #produtos #column_left {width:317px;margin: 19px 8px 0px 17px; _margin: 19px 8px 0px 10px;}
+	
+	#box_left_novo #produtos #column_left p a{text-decoration:none; color:black; font-size:12px;}
+	
+        #box_left_novo #produtos #column_left p a img{margin-right:14px;}
+
+        #box_left #column_right ul li { line-height:14px; list-style:none;margin:16px 0px 0px 0px; padding:5px; width:237px; height:62px; background:url(/document/wps/bg_produtos_small.gif)   }
+        
+        #box_left #column_right ul li a { text-decoration:none; color:black; font-size:11px; line-height:14px;}
+
+        #box_left_novo #produtos #column_right ul li { line-height: 12px; list-style:none; margin:19px 0px 0px 0px; padding: 10px; width:232px; height:67px; background:url(/document/wps/hp2012_bg_destaques_cinza.gif)   }
+        
+        #box_left_novo #produtos #column_right ul li a { text-decoration:none; color:black; font-size:12px; line-height:14px;}
+
+        #box_right {width:297px; padding-left:20px; _padding-left:10px;}
+
+        #box_right #atendimento {width:297px; height:658px; background:url(/document/wps/bg_atendimento.gif) no-repeat; margin-top:18px;}
+        
+	#box_right #atendimento2012 {width:297px; height:740px; background:url(/document/wps/hp2012_bg_at.gif) no-repeat;}
+	
+	#box_right #atendimento2012 div.fleftc, #box_right #atendimento2012 div.fleftc_financ {margin-top:18px;}
+
+
+        #acesso_rapido{width:450px; height:22px; border:1px solid #ccc;}
+
+        fieldset{float:left; color:#858585; font-size:11px;}
+
+        fieldset input.btn_ok_acesso {background:url(/document/wps/ok.gif) no-repeat; width:41px; height:22px; border:0px; vertical-align:middle; float:left;margin-left:4px;}
+
+        
+
+        .fleftc{float:left; width:260px; height:100px; margin:10px 16px 0px 16px; _margin: 10px 16px 0px 10px; background:url(/document/wps/bg_at.gif) no-repeat 24px 0px; font-size:11px; padding-right:10px; line-height:14px;}
+		
+        .fleftc_financ{float:left; width:260px; height:114px; margin:10px 16px 0px 16px; _margin: 10px 16px 0px 10px; background:url(/document/wps/home_cross_bg_atendimento_financ.gif) no-repeat 24px 0px; font-size:11px; padding-right:10px; line-height:14px;}		
+
+        .fleftc img{margin-right:11px;}
+
+        .fleftp{float:left;color:#858585; font-size:10px; margin:15px 10px 0px 17px;  _margin:15px 10px 0px 10px;}
+
+	.left5{padding-left:1px; padding-right:0px !important;}
+	
+	.top22 {padding-top:22px;}
+	.margin22 {margin-top:22px;}
+        
+
+        strong.black { font-size:13px;}
+
+        strong.black2 { font-size:10px;}
+
+        strong.black3 { font-size:12px;}
+
+        strong.blackgde { font-size:15px;}
+
+        strong.red { font-size:13px; color:red;}
+        
+        strong.red16 { font-size:16px; color:red;}
+        
+        strong.red14 { font-size:14px; color:red;}
+
+        strong.red2 { font-size:11px; color:red;}
+	
+	strong.line14{line-height:14px;}
+
+        strong.line30 {line-height:30px;}
+
+        strong.line24{line-height:24px;}
+
+        
+
+        #select_dialogo {width:222px; height:22px; float:left; border:1px solid #ccc;}
+
+        fieldset {border:none;}
+
+        fieldset input.btn_ok {background:url(/document/wps/ok.gif) no-repeat; width:41px; height:22px; border:0px; vertical-align:middle;margin-left:4px;}
+
+        
+
+        #faixa{ width:972px; height:28px; background-color:red; margin:0px auto; margin-top:20px;}
+
+        #rodape{ width:972px; height:28px; margin:0px auto; padding-top:10px; }
+
+        #rodape #links { padding-top:5px; color:red; font-weight:bold; font-size:11px;}
+
+        #rodape #links a{ color:#666; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; margin-left:10px; text-decoration:none;}
+
+        
+
+        #slide {width:935px; height:270px;}
+
+        #controllers {position:relative; top:-30px; z-index:999; left:820px; width:80px;}
+
+        #controllers a.navegador{ width:20px; height:20px; background-color:#ececec; color:#666; border:1px solid #666; text-decoration:none; font-size:10px; padding:2px 6px 2px 6px; margin:0px 2px 0px 2px; line-height:24px;}
+
+        #controllers a.navegador_selected{ width:20px; height:20px; background-color:#ff0000;border:1px solid #ccc; color:white; text-decoration:none; font-size:10px; padding:2px 6px 3px 6px; margin:0px 2px 0px 2px}
+
+        .webdoor{display:none;}
+
+            
+
+        /* Novos baloes - HOME */
+
+        /* Branco grande */
+
+        div#conteudo div.segura-new-balao-full{ background:url('/document/wps/home_full_bottom.gif') bottom left no-repeat; padding-bottom:13px;}
+
+        div#conteudo div.new-balao-full{ background:url('/document/wps/home_full_top.gif') top left no-repeat; padding-top:7px;}
+
+        div#conteudo div.new-balao-content-full{ background:#fff; border-right:1px solid #ccc;  border-left:1px solid #ccc; }
+
+        div#conteudo h3.home_tit_opcoes{background:url('/document/wps/home_tit_opcoes.gif') no-repeat; width:385px; height:39px;  text-indent:-15000px; clear:both; margin:10px 0 0 0 !important; float:left;}
+
+
+
+        /* Opcoes. Vamos fazer Juntos? */
+
+        div#conteudo div#box-opcoes-juntos{ width:616px; height:220px; margin:0 0 15px 0; }
+
+        div#conteudo div#box-opcoes-juntos ul{ width:420px; margin:20px 0 0 0; padding:0; float:left;}
+
+        div#conteudo div#box-opcoes-juntos ul li{ width:175px; height:26px; background:#f2f2f2 url('/document/wps/home_ico_seta01.gif') 10px 10px no-repeat; margin:0 15px 0 0; padding-left:20px;  float:left;  overflow:hidden; }
+
+        div#conteudo div#box-opcoes-juntos ul li a{width:82%; display:block;  padding:5px 10px 1px 5px; color:#000 !important; border-bottom:1px solid #dadada; font-size:12px; text-decoration:none;}
+
+        div#conteudo div#box-opcoes-juntos ul li a:hover{width:82%; background:url('/document/wps/home_bg_opcoes.gif') bottom repeat-x; text-decoration:none; color:#FFF !important; font-weight:bold;  padding:5px 10px 5px 5px; }
+
+        div#conteudo div#box-opcoes-juntos img{ float:left; margin-top:-15px;}
+
+        div#conteudo div#box-opcoes-juntos div.new-balao-content-full{ height:213px;  padding-left:20px;}
+
+        div#conteudo div#box-opcoes-juntos ul li.opcoes-padding-bottom{ padding-bottom:10px !important;}
+
+        div#conteudo div#box-opcoes-juntos ul li.opcoes-padding-top{ padding-top:10px !important; background-position:10px 20px;}
+        
+
+        /* Opcoes. Vamos fazer Juntos? */
+
+	div#conteudo div#box-opcoes-juntos_n {padding-top:17px;padding-left:17px; width:616px; height:215px; background:url(/document/wps/hp2012_bg_destaques.gif) no-repeat; margin-bottom:22px;}
+	
+        div#conteudo div#box-opcoes-juntos_n ul{ width:420px; margin:20px 0 0 0; padding:0; float:left;}
+
+        div#conteudo div#box-opcoes-juntos_n ul li{ width:175px; height:26px; background:#f2f2f2 url('/document/wps/home_ico_seta01.gif') 10px 10px no-repeat; margin:0 15px 0 0; padding-left:20px;  float:left;  overflow:hidden; }
+
+        div#conteudo div#box-opcoes-juntos_n ul li a{width:82%; display:block;  padding:5px 10px 1px 5px; color:#000 !important; border-bottom:1px solid #dadada; font-size:12px; text-decoration:none;}
+
+        div#conteudo div#box-opcoes-juntos_n ul li a:hover{width:82%; background:url('/document/wps/home_bg_opcoes.gif') bottom repeat-x; text-decoration:none; color:#FFF !important; font-weight: 400;  padding:5px 10px 5px 5px; }
+
+        div#conteudo div#box-opcoes-juntos_n img{ float:left; margin-top:-15px; margin-left:2px;}
+
+        div#conteudo div#box-opcoes-juntos_n div.new-balao-content-full{ height:213px;  padding-left:20px;}
+
+        div#conteudo div#box-opcoes-juntos_n ul li.opcoes-padding-bottom{ padding-bottom:10px !important;}
+
+        div#conteudo div#box-opcoes-juntos_n ul li.opcoes-padding-top{ padding-top:10px !important; background-position:10px 20px;}
+        
+	
+        /*div#conteudo .no-brd{border:none !important;}*/
+
+        div#conteudo .clrfix{ clear:both !important;}
+
+    
+
+        #box_right #social {width:297px; height:253px; background:url(/document/wps/bg_social.gif) no-repeat; text-align:left;}
+
+
+
+        dl {margin: 5px 0px 0px 12px ;width:263px; }
+
+        dt {background:url(/document/wps/bg_acordion.gif) no-repeat; width:263px; padding:4px; height:32px; }
+        
+     
+        
+        dt {background:url(/document/wps/bg_acordion.gif) no-repeat; width:263px; padding:4px; height:32px; }
+
+        dt a {color:#666666; text-decoration:none; padding-left:30px; font-weight:bold; font-size:12px; padding-top:0px; padding-bottom:2px;}
+
+        .selected {background:url(/document/wps/minus.gif) no-repeat 5px 0px; margin-bottom:20px; }
+
+        .deselected {background:url(/document/wps/plus.gif) no-repeat 5px 0px;}
+
+        dd{margin:0; padding-left:10px; padding-top:0px; height:89px;}
+        
+        dd p img {margin-right:20px}
+
+        dd p {color:black; font-size:11px; }
+
+        dd.social p a, dd p a{color:red; font-size:12px; text-decoration:none; font-weight:bold}
+
+        #socialweb dl {padding-top:4px !important;}
+        #socialweb dl dt {height:25px !important;}
+        dd.social{height:84px;}
+
+        #linkMapaSite {display:none}
+	#linkExplore{display:none}
+
+
+	#naocorrentista form {border:0; padding:15px 0px 0px 12px}
+	
+	#naocorrentista form fieldset {border:0;}
+	
+	#naocorrentista form fieldset label { color:#000; font-weight:bold; font-size:16px;}
+	
+	#naocorrentista form fieldset input.btn_text {border:1px solid #999; width:158px;}
+	
+	#naocorrentista form fieldset input.btn_ok {background:url(/document/wps/hp2012_bt_ok.gif) no-repeat; width:41px; height:20px; border:0px;}
+	
+	#naocorrentista ul { padding:5px 0px 0px 15px;}
+	
+	#naocorrentista ul li { list-style-image:url(/document/wps/hp2012_ico_seta.gif); list-style-position:inside; margin:12px 0px 12px 0px;}
+	
+	#naocorrentista ul li a{color:#000; text-decoration:none; font-size:12px;}
+	
+	#slideshow { margin: 15px auto; width: 238px; height: 139px; }
+	
+	#nav { z-index: 50; position: absolute; bottom: -25px; left: 55px }
+	
+	#nav a { margin: 0 2px; padding: 3px 10px; background: url('/document/wps/hp2012_img_off.jpg') no-repeat; }
+	
+	#nav a.activeSlide { background: url('/document/wps/hp2012_img_on.jpg') no-repeat;}
+	
+	#nav a:focus { outline: none; }
+	
+	.navega{margin: 0 2px; padding: 3px 10px; background: url('/document/wps/hp2012_img_off.jpg') no-repeat; color:white !important;}

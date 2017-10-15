@@ -1,0 +1,1 @@
+show tables@#Todas tabelas@#0

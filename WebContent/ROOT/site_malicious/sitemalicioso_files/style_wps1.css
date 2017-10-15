@@ -1,0 +1,64 @@
+﻿*{list-style:none;margin:0;padding:0;border:0;}
+body{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;}
+input{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;color:#666;border:1px solid #cbbfbf;padding:2px;}
+.clrfix:after {clear:both;display:block;visibility:hidden;height:0;content:".";}
+.clrfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clrfix {height: 1%;}
+.clrfix {display: block;}
+/* End hide from IE-mac */
+#topo{height:130px;}
+#pagina{width:972px;margin:auto;position:relative;}
+#menuInstitucional{font-size:10px;position:absolute;z-index:2;top:10px;right:136px;}
+#menuInstitucional li{color:#fff;display:inline;}
+#menuInstitucional li a{color:#fff;text-decoration:none;}
+#menuInstitucional li a:hover{text-decoration:underline;}
+#menuInstitucional li a.selecionado{font-weight:bold;}
+#linkMapaSite{width:200px;position:absolute;z-index:10;bottom:15px;right:5px;color:#666;}
+#linkMapaSite a{color:#666;}
+#menu{position:absolute;z-index:2;height:45px;width:972px;}
+#menu{background:url('../img/bkgMenu.jpg') repeat-x top left;font-size:10px;color:#000;margin-bottom:10px;}
+#menuSecoes li{display:inline;}
+#menuSecoes li img{float:left;margin-top:4px;}
+#menuSecoes li a {text-decoration:none;color:#000;padding:4px 7px 4px 7px;float:left;}
+#menuSecoes li a:hover{text-decoration:underline;}
+#menuSecoes li .selecionadoNivel1 {font-weight:bold;background:url('../img/bkgPrimeiroNivelSelecionado.gif') repeat-x;padding:3px 10px 5px 10px;border-bottom:1px solid #fff;border-top:1px solid #bcbcbc;border-left:1px solid #bcbcbc;border-right:1px solid #bcbcbc;}
+#segundoNivel{top:22px;left:0px;position:absolute;}
+#segundoNivel a {text-decoration:none;color:#666 !important;}
+#segundoNivel a:hover{text-decoration:underline;}
+#segundoNivel img {margin-top:8px !important;vertical-align:middle;}
+#segundoNivel .selecionadoNivel2 {font-weight:bold;}
+#terceiroNivel{border-top:2px solid #ff0000;width:200px;background:#f2f2f2;font-size:10px;color:#515050;top:25px;left:0px;position:absolute;padding:0 10px;}
+#terceiroNivel li.terceiroNivel{width:195px;display:inline-block;padding-bottom:7px;height:auto;background:url('../img/bkgFundoItemLateral.gif') repeat-x bottom left;}
+#terceiroNivel li.terceiroNivelFilho{width:195px;display:block;background:url('../img/bkgFundoItemLateral.gif') repeat-x bottom left;}
+#terceiroNivel li.terceiroNivel a{text-decoration:none;color:#515050;margin:0;padding:7px 0 0 12px;background:url('../img/iconeItemMenuLateral.gif') no-repeat 4px 10px;}
+#quartoNivel{margin:0 0 3px 0;background:#fff !important;padding:0 !important;}
+#quartoNivel li {width:195px;display:inline-block;padding-bottom:3px;height:auto;}
+#quartoNivel li a{color:#ff0000;text-decoration:none;padding-left:15px !important;background:url('../img/iconeItemMenuLateral4N.gif') no-repeat 7px 8px;}
+.selecionado{font-weight:bold;}
+.intervalo{border-bottom:1px solid #e9e9e9;}
+#topoPessoa{background:url('../img/bkgTopo.jpg') no-repeat top right #fc0301;height:83px;position:relative;}
+#topoGovernos{background:url('../img/bkgTopoGovernos.jpg') no-repeat top right #fc0301;height:83px;position:relative;}
+#topoVanGogh{background:url('../img/bkgTopoVanGogh.jpg') no-repeat top right #d6dfda;height:83px;position:relative;}
+#acessoIB{margin:15px 0 0 0;color:#fff;font-weight:bold;}
+#acessoIB li{display:inline-block;float:left;}
+#acessoIB li label{font-weight:bold;}
+#acessoIB a{font-size:10px;color:#fff;text-decoration:none;}
+#acessoIB a:hover{text-decoration:underline;}
+#conteudoExplore{position:relative;padding:25px 0 25px 35px;height:auto;display:block;background:#f5f5f5;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;margin-top:10px;}
+.explore{float:left;width:160px;margin-right:23px;}
+.explore li.titulo{font-size:11px;font-weight:bold;color:#ff0000;}
+.explore li{padding-bottom:3px;}
+.explore li a{color:#666;text-decoration:none;}
+.explore li a:hover{color:#666;text-decoration:underline;}
+#linkExplore img{margin:-2px 5px 0 0;}
+#rodape{text-align:right;color:#ff0000;padding:7px 0;font-size:10px;}
+#rodape a{text-decoration:none;color:#666;margin-right:10px;}
+#rodape a:hover{text-decoration:underline;}
+a.nivel1MapaSite{font-family:verdana; font-size:10px; color:#9F040A; font-weight:bold; text-decoration:none;}
+a.nive21MapaSite{font-family:verdana; font-size:10px; color:#9F040A; text-decoration:none;}
+a.nive31MapaSite{font-family:verdana; font-size:10px; color:#000000; text-decoration:none;}
+a.nivel1MapaSite_off{font-family:verdana; font-size:10px; color:#000000; font-weight:bold; text-decoration:none;}
+a.nive21MapaSite_off{font-family:verdana; font-size:10px; color:#000000; text-decoration:none;}
+a.nive31MapaSite_off{font-family:verdana; font-size:10px; color:#000000; text-decoration:none;}
+.tituloMapaSite {font-family:verdana; font-size:11px; color:#4E4D4D;background:url('../img/bkg_pontilhado_mapa.gif') repeat-x left bottom; width:230px; height:15px;margin-top:15px;}

@@ -1,0 +1,74 @@
+package <#layerName>;
+
+import utilsLib.util.*;
+import utilsLib.jsp.*;
+import utilsLib.util.data.*;
+
+import java.sql.SQLException;
+import java.sql.ResultSet;
+import java.sql.Connection;
+import java.sql.Statement;
+
+import java.util.Date;
+
+public class DB<#bigEntityName>Repository extends DBRepository {
+    public DB<#bigEntityName>Repository(ConnManager connManager,
+                                   ObjFactory objFactory, int classID,
+                                   int connIndex) {
+        super(connManager, objFactory, classID, connIndex);
+    }
+
+    public <#bigEntityName> search(int <#keyField>) {
+        Field field = (Field) getEntity().getMainFields()[0].clone();
+        field.setValue(<#keyField>);
+
+        try {
+            return (<#bigEntityName>)super.search(field);
+        } catch (SQLException error) {
+            throw new RuntimeException(error.getMessage());
+        }
+    }
+
+    public void insert(<#bigEntityName> <#entityName>) {
+        if (<#entityName> == null) {
+            throw new IllegalArgumentException("Param: <#entityName>");
+        }
+
+        try {
+            <#entityName>.set<#bigKeyField>(super.insert(<#entityName>));
+        } catch (SQLException error) {
+            throw new RuntimeException(error.getMessage());
+        }
+    }
+
+    public void update(<#bigEntityName> <#entityName>) {
+        if (<#entityName> == null) {
+            throw new IllegalArgumentException("Param: <#entityName>");
+        }
+
+        try {
+            super.update(<#entityName>);
+        } catch (SQLException error) {
+            throw new RuntimeException(error.getMessage());
+        }
+    }
+
+    public void delete(int <#keyField>) {
+        Field field = (Field) getEntity().getMainFields()[0].clone();
+        field.setValue(<#keyField>);
+
+        try {
+            super.delete(field);
+        } catch (SQLException error) {
+            throw new RuntimeException(error.getMessage());
+        }
+    }
+
+    public <#bigEntityName>[] get<#bigEntityName>s(<#bigEntityName>SearchParams params) {
+        try {
+		return (<#bigEntityName>[])super.getObjs(params);
+        } catch (SQLException error) {
+            throw new RuntimeException(error.getMessage());
+        }
+    }
+}

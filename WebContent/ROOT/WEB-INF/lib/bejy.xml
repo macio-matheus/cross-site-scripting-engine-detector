@@ -1,0 +1,43 @@
+<bejy>
+	<mail
+		mailDbi="de.bb.bejy.mail.MySQLDbi"
+		nameserver="200.238.126.141"
+		jdbcUrl="jdbc:mysql://localhost/mail?autoReconnect=true."
+		path="mail"
+	  />
+  <global javac="javac -g" logFile="*"/>
+  <group class="de.bb.bejy.ConfigGroup" name="admins">
+    <user name="admin" password="WKzuPqcsgLQ="/>
+  </group>
+  <group class="de.bb.bejy.ConfigGroup" name="mail">
+    <user name="postmaster@xxx.yyy" password="WKzuPqcsgLQ="/>
+  </group>
+  <mime-types>
+    <mime-type extension="gif" type="image/gif"/>
+    <mime-type extension="exe" type="application/executable"/>
+    <mime-type extension="html" type="text/html"/>
+  </mime-types>
+  <server maxThreads="999" maxWait="1" name="admin" port="8081" timeout="120000">
+    <protocol class="de.bb.bejy.http.HttpFactory">
+      <host logFile="*" name="*">
+        <war group="admins" path="admin" realm="BEJY admin" urlPath="/"/>
+      </host>
+    </protocol>
+  </server>
+  <server maxThreads="999" maxWait="1" name="http" port="80" timeout="120000">
+    <protocol class="de.bb.bejy.http.HttpFactory">
+      <host logFile="*" name="*">
+        <context path="htdocs" realm="BEJY information" urlPath="/">
+          <handler class="de.bb.bejy.http.ServletHandler" mask="*.jsp" servlet="de.bb.jsp.JspServlet"/>
+          <handler class="de.bb.bejy.http.ServletHandler" mask="/WelcomeServlet" servlet="WelcomeServlet"/>
+          <handler class="de.bb.bejy.http.ServletHandler" mask="/WelcomeTest" servlet="WelcomeTest"/>
+          <handler class="de.bb.bejy.http.FileHandler" default="index.html" mask="*"/>
+        </context>
+        <context group="mail" path="htdocs/mail" realm="BEJY information" urlPath="/mail">
+          <handler class="de.bb.bejy.http.ServletHandler" mask="*.jsp" servlet="de.bb.jsp.JspServlet"/>
+          <handler class="de.bb.bejy.http.FileHandler" default="index.html" mask="*"/>
+        </context>
+      </host>
+    </protocol>
+  </server>
+</bejy>
