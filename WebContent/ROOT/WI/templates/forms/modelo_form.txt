@@ -1,7 +1,0 @@
-<form action="post" method="proc/procteste.jsp">
-[#campos]
-[#nome_campo]:<br>
-<input type="text" name="[#nome_campo_parametro]"><br><br>
-[#/campos]
-<input type="submit">
-</form>

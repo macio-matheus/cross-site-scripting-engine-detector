@@ -46,7 +46,7 @@ public class JSPUtils {
 		// hora
 		String hora = Utils.dateToStr(new Date(), "HH:mm");
 
-		// nome da página?
+		// nome da pï¿½gina?
 		String pageName = request.getRequestURL().toString();
 
 		// ip
@@ -87,16 +87,13 @@ public class JSPUtils {
 	public static final int REDIRECT_METHOD_SCRIPT = 1;
 	public static final int REDIRECT_METHOD_DISPATCH = 2;
 
-	// public static String SITE_URL = "http://meusite.com.br:8080";
-	// public static String SITE_REAL_PATH = "/home/down/www";
-
 	public static String SITE_URL = "http://localhost:8080";
 	public static String SITE_REAL_PATH = "C:\\PROJETOS\\analysexss\\WebContent\\ROOT";
 
 	/**
-	 * Redireciona para destinUrl a página atual, usando o melhor método para
-	 * isto. Após a chamada deste método, deve-se usar "return" para que o
-	 * processamento posterior dentro da página/servlet não seja executado.
+	 * Redireciona para destinUrl a pï¿½gina atual, usando o melhor mï¿½todo para
+	 * isto. Apï¿½s a chamada deste mï¿½todo, deve-se usar "return" para que o
+	 * processamento posterior dentro da pï¿½gina/servlet nï¿½o seja executado.
 	 * 
 	 */
 	public static void redirect(String destinUrl, HttpServletRequest request,
@@ -186,15 +183,15 @@ public class JSPUtils {
 	}
 
 	/**
-	 * Obtém o cookie, se existir, de um dado nome. São passados o array dos
-	 * cookies, que são obtidos, por exemplo, pela função
+	 * Obtï¿½m o cookie, se existir, de um dado nome. Sï¿½o passados o array dos
+	 * cookies, que sï¿½o obtidos, por exemplo, pela funï¿½ï¿½o
 	 * <code>request.getCookies();</code>, e o nome do cookie.
 	 * 
 	 * @param cookies
-	 *            Array contendo os cookies entre os quais serão pesquisados.
+	 *            Array contendo os cookies entre os quais serï¿½o pesquisados.
 	 * @param cookieName
 	 *            Nome do cookie a ser procurado.
-	 * @return Retorna <code>null</code> caso o cookie não esteja no array ou o
+	 * @return Retorna <code>null</code> caso o cookie nï¿½o esteja no array ou o
 	 *         cookie encontrado.
 	 */
 	public static Cookie getCookieByName(Cookie[] cookies, String cookieName) {
@@ -260,7 +257,7 @@ public class JSPUtils {
 	 */
 	public static void log(String prefix, String content) {
 		if (content == null) {
-			throw new IllegalArgumentException("Parametro inválido: content");
+			throw new IllegalArgumentException("Parametro invï¿½lido: content");
 		}
 
 		try {
@@ -291,7 +288,7 @@ public class JSPUtils {
 	 * 
 	 * @param str
 	 *            String a ser foramtada
-	 * @return Código formatad.
+	 * @return Cï¿½digo formatad.
 	 */
 	public static String formatScriptInStr(String str) {
 		if (str == null) {
